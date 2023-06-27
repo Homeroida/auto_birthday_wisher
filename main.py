@@ -27,6 +27,6 @@ if (today.month, today.day) in new_dict:
         connection.login(user=email, password=password)
         connection.sendmail(
             from_addr=email,
-            to_addrs="chanishvili@yahoo.com",
+            to_addrs="enter some email",
             msg=f"subject:Happy Birthday \n\n{new_template}"
         )
